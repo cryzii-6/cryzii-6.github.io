@@ -66,8 +66,11 @@
 
     <p>
         Email: 
-        <a href="mailto:202210145@gordoncollege.edu.ph">202210145@gordoncollege.edu.ph</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=202210145@gordoncollege.edu.ph" target="_blank">
+            202210145@gordoncollege.edu.ph
+        </a>
     </p>
+    
 
     <div class="social-links">
         <a href="https://github.com/cryzii-6" target="_blank">
