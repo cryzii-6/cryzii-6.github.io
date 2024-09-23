@@ -82,5 +82,8 @@
         <a href="https://instagram.com/_cryzii" target="_blank">
             <img class="social-icon" src="https://img.icons8.com/material-outlined/24/4a90e2/instagram-new.png" alt="Instagram" />
         </a>
+        <a href="https://linkedin.com/in/ynnyannah-vea-cruz-10817432b" target="_blank">
+            <img class="social-icon" src="https://img.icons8.com/material-outlined/24/4a90e2/linkedin.png" alt="LinkedIn" />
+        </a>
     </div>
 </main>
