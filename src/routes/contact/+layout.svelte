@@ -1,18 +1,18 @@
 <script>
-    export let title = "Personal Story: Ynnyannah's Life";
+    export let title = "Contact Page";
 </script>
 
 <style>
     body {
         margin: 0;
         font-family: 'Arial', sans-serif;
-        background: linear-gradient(135deg, #74ebd5, #ACB6E5); 
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5); /* Beautiful gradient */
         color: #333;
-        overflow-x: hidden; 
+        overflow-x: hidden; /* Prevent horizontal scroll */
     }
 
     header {
-        background-color: rgba(74, 144, 226, 0.9); 
+        background-color: rgba(74, 144, 226, 0.9); /* Semi-transparent background */
         color: white;
         padding: 20px;
         text-align: center;
@@ -24,12 +24,12 @@
     h1 {
         margin: 0;
         font-size: 2.5rem;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
     }
 
     main {
-        padding: 30px; 
-        min-height: calc(100vh - 180px);
+        padding: 30px; /* Increased padding for better spacing */
+        min-height: calc(100vh - 180px); /* Adjusted height for footer */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -38,18 +38,18 @@
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         border-radius: 12px;
         margin: 20px;
-        transition: all 0.3s ease; 
+        transition: all 0.3s ease; /* Smooth transitions */
     }
 
     footer {
-        background-color: #333;
+        background-color: rgba(74, 144, 226, 0.9); /* Matches header color */
         color: white;
         text-align: center;
         padding: 10px;
         position: relative;
         width: 100%;
         bottom: 0;
-        margin-top: 20px; 
+        margin-top: 20px; /* Added margin for spacing */
     }
 
     p {
@@ -63,7 +63,7 @@
 
         main {
             margin: 10px;
-            padding: 20px; 
+            padding: 20px; /* Adjusted padding for smaller screens */
         }
     }
 </style>
@@ -73,7 +73,7 @@
 </header>
 
 <main>
-    <slot />
+    <slot /> <!-- This is where your page content will be injected -->
 </main>
 
 <footer>
