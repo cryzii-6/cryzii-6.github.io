@@ -36,7 +36,6 @@
         text-decoration: underline;
     }
 
-
     .social-links {
         display: flex;
         gap: 15px;
@@ -48,7 +47,6 @@
         height: 30px;
     }
 
-  
     .profile-image {
         width: 100px; 
         height: 100px; 
@@ -60,7 +58,7 @@
 </style>
 
 <main>
-    <img class="profile-image" src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/417700330_2565452523618014_1754247105946385500_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeErtPp0xQ-EPDDkvz3JR7fg4Kz20DFuIbfgrPbQMW4htygqCYGEIGRL7pErtwifGwQhozL4kcYgGULLQH4kmMBd&_nc_ohc=6-8lwXReKiIQ7kNvgHFyGa3&_nc_ht=scontent.fmnl9-4.fna&_nc_gid=AU0BO-751In2KxXB6wsg4UK&oh=00_AYAJRGhKC19LNLbTJgRr3LPH7vMQoQ1D7lQ8Z-BsJRN6bg&oe=66F70A3A" alt="Profile Picture" />
+    <img class="profile-image" src="/images/image1.jpeg" alt="Profile Picture" />
     <h1>{title}</h1>
     <p>If you'd like to get in touch, feel free to reach out through any of the following platforms:</p>
 
@@ -71,7 +69,6 @@
         </a>
     </p>
     
-
     <div class="social-links">
         <a href="https://github.com/cryzii-6" target="_blank">
             <img class="social-icon" src="https://img.icons8.com/material-outlined/24/4a90e2/github.png" alt="GitHub" />
